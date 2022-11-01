@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(23, 201, 23);
+}
+
+button{
+    padding: 1px 6px;
+    background-color: rgb(245, 191, 15);
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+.sebetContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.header_content i{
+    color: rgb(245, 191, 15);
+   font-size: 24px;
+   cursor: pointer;
+}
+.sebet_card{
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1180px;
+    border-radius:19px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: none;
+}
+.sebet_card img{
+    height: 100%;
+    width: 200px;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left p{
+    margin-left: 20px;
+}
+.right{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.sebetBottom{
+    background-color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 5px;
+  }
+  .sebetBottom button{
+    width: 150px;
+    height: 30px;
+  }
