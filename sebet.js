@@ -59,8 +59,8 @@ function azcox(e, id) {
   showSebet();
 }
 
-back.addEventListener('click',()=>{
+// back.addEventListener('click',()=>{
 
-    window.location.pathname='index.html'
+//     window.location.pathname='index.html'
 
-})
+// })

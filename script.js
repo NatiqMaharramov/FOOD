@@ -54,9 +54,9 @@ window.addEventListener('load', () => {
   count.innerHTML=basket.length
 })
 
-sebet.addEventListener('click',()=>{
-window.location.pathname='sebet.html'
-})
+// sebet.addEventListener('click',()=>{
+// window.location.pathname='sebet.html'
+// })
 
 
 let x=8

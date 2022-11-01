@@ -1,4 +1,5 @@
 @media screen and (max-width: 1245px) {
+
   .leftt {
     max-width: 200px;
     margin-left: 20px;
@@ -8,6 +9,7 @@
   }
   .center {
     width: 200px;
+
   }
   .centerr img {
     width: 90%;
@@ -19,7 +21,7 @@
     font-size: 14px;
     line-height: 20px;
     max-width: 200px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .centerr p {
     margin-top: 12px;
@@ -27,7 +29,7 @@
     font-size: 12px;
     line-height: 15px;
     max-width: 200px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .leftt img {
     width: 90%;
@@ -40,9 +42,10 @@
     max-width: 350px;
     margin-top: 30px;
     padding-left: 30px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-right: auto;
-    gap: 20px;
+    gap: 50px;
     margin-top: 10px;
   }
   .div {

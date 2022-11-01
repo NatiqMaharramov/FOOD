@@ -2,10 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 body {
   background: #f6f4f4;
+  
+
+}
+
+header,main,footer{
+    overflow-x: hidden; 
 }
 #bars{
   display: none !important;
@@ -416,21 +423,21 @@ select {
 }
 
 .blog_container {
-  width: 100%;
-  background-color: white;
+
   padding-top: 100px;
   padding-bottom: 110px;
   margin-top: 59px;
 }
 
 .blog_container h2 {
-  margin-left: 50px;
+text-align: center;
+margin-left: 100px;
 }
 
 .blog_container1 {
 
   max-width: 1180px;
-  margin-left: -300px !important;
+  margin-left: -320px !important;
   margin-top: 52px !important;
   padding-right: 30px;
   display: flex;
@@ -467,7 +474,6 @@ select {
 
 .leftt {
   width: 277px;
-  /* background-color:#1ac073; */
   display: grid;
   gap: 50px;
 }
