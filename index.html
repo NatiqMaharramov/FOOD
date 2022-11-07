@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -19,11 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Squada+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="responsive/responsive.css" />
   </head>
   <body>
     <header>
       <div class="header_bg">
+        <!--===================== header_head_container START================== -->
         <div class="header_head_container">
           <h2>WHAT2EAT</h2>
 
@@ -56,8 +57,9 @@
           </svg>
         </label>
         </div>
-        <div class="basket_listt"></div>
+       <!--===================== header_head_container END================== -->
 
+              <!--===================== header_center START================== -->
         <div class="header_center">
           <div class="content">
             <h1>Authentic Home food in UK</h1>
@@ -75,30 +77,25 @@
             <img src="images/cuate.png" alt="" />
           </div>
         </div>
+               <!--===================== header_center END================== -->
       </div>
     </header>
+    <!-- ==============header END -->
 
     <main>
       <section>
         <div class="main_button">
           <h3>Home Kitchen</h3>
-
-          <div class="main_button1 items">
-            <button class="item active" data-name="all">All</button>
-            <button class="item" data-name="button">Button</button>
-            <button class="item" data-name="free">Free delivery</button>
-            <button class="item" data-name="new">New</button>
-            <button class="item" data-name="coming">Coming</button>
-          </div>
-
           <select name="" id="">
             <option class="option" value="filter">Filters</option>
           </select>
         </div>
 
+         <!-- ==============   GET Api ========================= -->
         <div class="grid_container">
         
         </div>
+         <!-- ==============  Api END ========================= -->
 
         <div class="centerbtn">
           <button class="load_btn">+ Load more...</button>
@@ -109,7 +106,11 @@
         <div class="blog_container">
           <div class="div">
             <h2>Our Blog</h2>
+            <!-- ============== Inside the blog container1 -->
             <div class="blog_container1">
+
+    
+
               <div class="leftt">
                 <div class="left_card">
                   <img src="images/unsplash_bZD6EO4cx2U.png" alt="" />
@@ -160,6 +161,7 @@
                 </div>
               </div>
             </div>
+            <!-- ==============  blog container1  END-->
           </div>
         </div>
       </section>
@@ -167,6 +169,7 @@
       <section>
         <div class="main_end_container">
           <div class="main_end_container1">
+                <!-- ==============main_left Start =================== -->
             <div class="main_left">
               <h5>Do you have a question or want to become a seller?</h5>
               <p>
@@ -180,6 +183,8 @@
                 <input class="msj" type="text" placeholder="Your message" />
               </div>
             </div>
+                <!-- ==============main_left End =================== -->
+
             <div class="main_right">
               <svg
                 width="503"
@@ -218,6 +223,7 @@
 
     <footer>
       <div class="footer_container">
+           <!-- ============== footer_container1 content  START-->
         <div class="footer_container1">
           <h2>WHAT2EAT</h2>
 
@@ -272,11 +278,12 @@
           </div>
         </div>
 
+          <!-- ============== footer_container1 content  END-->
         <div class="xett"></div>
 
         <p class="footer_p">Copyright @2021 What2Eat</p>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
